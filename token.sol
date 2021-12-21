@@ -4,7 +4,7 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000 * 10 ** 18;
-    string public name = "Chris Titus Crypto";
+    string public name = "GoldCoin Crypto";
     string public symbol = "CTC";
     uint public decimals = 18;
     
